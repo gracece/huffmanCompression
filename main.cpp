@@ -4,7 +4,7 @@ int main(int argc,char *argv[])
 {
 	if(argc ==1)
 	{
-	cout << "参数不足!"<<endl;
+	cout << "参数不足"<<endl;
 		exit(-1);
 	}
 	huffman comp(argv[1],argv[2]);
